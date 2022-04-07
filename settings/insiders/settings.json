@@ -1,0 +1,47 @@
+{
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "workbench.colorTheme": "Overflow (rainglow)",
+    "editor.fontFamily": "\"Fantasque Sans Mono\", \"Generic Mono II\", monospace",
+    "editor.fontSize": 19,
+    "bsv.bzl.server.enabled": false,
+    "bsv.bzl.server.autoLaunch": false,
+    "terminal.integrated.fontSize": 16,
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.formatOnType": true,
+    "editor.inlayHints.fontFamily": "Fantasque Sans Mono",
+    "editor.lineHeight": 1.3,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.fontFamily": "Fantasque Sans Mono",
+    "editor.codeLensFontFamily": "Fantasque Sans Mono",
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "[json]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.largeFileOptimizations": false,
+    "customizeUI.font.monospace": "Fantasque Sans Mono",
+    "errorLens.fontFamily": "Fantasque Sans Mono",
+    "cSpell.userWords": ["imdb"],
+    "window.zoomLevel": 1,
+    "[shellscript]": {
+      "editor.defaultFormatter": "shakram02.bash-beautify"
+    },
+    "editor.codeLensFontSize": 10,
+    "[jsonc]": {
+      "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    },
+    "trunk.trunkGrayOutNonBlockingIssues": false,
+    "tabnine.experimentalAutoImports": true
+  }
+  

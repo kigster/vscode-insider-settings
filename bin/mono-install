@@ -1,0 +1,35 @@
+#!/bin/bash
+# vim: ft=bash
+
+[[ -z ${BASHMATIC_HOME} ]] && export BASHMATIC_HOME="${HOME}/.bashmatic"
+[[ -d ${BASHMATIC_HOME} ]] || bash -c "$(curl -fsSL https://bashmatic.re1.re); bashmatic-install"
+[[ -d ${BASHMATIC_HOME} ]] || {
+  echo "Can't find Bashmatic, even after attempting an installation."
+  echo "Please install Bashmatic with the following command line:"
+  # shellcheck disable=SC2016
+  echo 'bash -c "$(curl -fsSL https://bashmatic.re1.re); bashmatic-install"'
+  exit 1
+}
+
+  # shellcheck disable=SC1091
+source "${BASHMATIC_HOME}/init.sh"
+output.constrain-screen-width 100
+
+run "curl -fsLO https://kig.re/share/utils/mono-fonts.sh.gz"
+if [[ ! -f mono-fonts.sh.gz ]] ; then
+  error "Cant find mono-fonts.sh.gz file after download!"
+  exit 1
+fi
+
+trap "rm -f mono-fonts.sh*" EXIT
+
+run "gunzip -f mono-fonts.sh.gz"
+
+if [[ ! -f mono-fonts.sh ]] ; then
+  error "Cant find mono-fonts.sh file after gunzip!"
+  exit 2
+fi
+
+run "/bin/sh mono-fonts.sh"
+
+success "Fonts Installed, Thanks!"
