@@ -1,9 +1,9 @@
 {
     "bracket-pair-colorizer-2.depreciation-notice": false,
     "kite.showWelcomeNotificationOnStartup": false,
-    "workbench.colorTheme": "Overflow (rainglow)",
+    "workbench.colorTheme": "Noctis",
     "editor.fontFamily": "\"Fantasque Sans Mono\", \"Generic Mono II\", monospace",
-    "editor.fontSize": 19,
+    "editor.fontSize": 16,
     "bsv.bzl.server.enabled": false,
     "bsv.bzl.server.autoLaunch": false,
     "terminal.integrated.fontSize": 16,
@@ -42,6 +42,53 @@
       "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
     "trunk.trunkGrayOutNonBlockingIssues": false,
-    "tabnine.experimentalAutoImports": true
+    "tabnine.experimentalAutoImports": true,
+    "[css]": {
+      "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[scss]": {
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "json.schemas": [],
+    "yaml.customTags": [
+      "!And",
+      "!And sequence",
+      "!If",
+      "!If sequence",
+      "!Not",
+      "!Not sequence",
+      "!Equals",
+      "!Equals sequence",
+      "!Or",
+      "!Or sequence",
+      "!FindInMap",
+      "!FindInMap sequence",
+      "!Base64",
+      "!Join",
+      "!Join sequence",
+      "!Cidr",
+      "!Ref",
+      "!Sub",
+      "!Sub sequence",
+      "!GetAtt",
+      "!GetAZs",
+      "!ImportValue",
+      "!ImportValue sequence",
+      "!Select",
+      "!Select sequence",
+      "!Split",
+      "!Split sequence"
+    ],
+    "aws.profile": "profile:default",
+    "redhat.telemetry.enabled": true,
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 2,
+    "editor.cursorStyle": "block",
+    "editor.fontWeight": "900",
+    "window.titleBarStyle": "native",
+    "shellcheck.executablePath": "/usr/local/bin/shellcheck",
+    "shellcheck.useWorkspaceRootAsCwd": true,
+    "RainbowBrackets.depreciation-notice": false
   }
   

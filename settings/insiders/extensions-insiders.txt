@@ -1,3 +1,4 @@
+4ops.terraform
 Atishay-Jain.All-Autocomplete
 ClemensPeters.format-json
 CodeStream.codestream
@@ -15,6 +16,7 @@ JScearcy.rust-doc-viewer
 KnisterPeter.vscode-github
 MateuszDrewniak.ruby-runner
 McCarter.start-git-bash
+MikeBovenlander.formate
 PKief.material-icon-theme
 ParthR2031.colorful-comments
 RedVanWorkshop.explorer-exclude-vscode-extension
@@ -25,12 +27,14 @@ TabNine.tabnine-vscode
 Tim-Koehler.helm-intellisense
 Trunk.io
 VisualStudioExptTeam.vscodeintellicode
+Wscats.qf
 ZainChen.json
 aaron-bond.better-comments
 abumalick.vscode-nvm
 adpyke.vscode-sql-formatter
 alefragnani.Bookmarks
 alefragnani.project-manager
+amazonwebservices.aws-toolkit-vscode
 anseki.vscode-color
 asciidoctor.asciidoctor-vscode
 asux.rspec-focus
@@ -50,6 +54,8 @@ cweijan.vscode-database-client2
 cweijan.vscode-es-client2
 daylerees.rainglow
 dbaeumer.vscode-eslint
+dhdersch.vscode-terraform0-12
+dionmunk.vscode-notes
 dunstontc.vscode-rust-syntax
 dustypomerleau.rust-syntax
 eamodio.gitlens
@@ -57,6 +63,7 @@ ecmel.vscode-html-css
 edonet.vscode-command-runner
 eg2.vscode-npm-script
 equinusocio.vsc-material-theme-icons
+erd0s.terraform-autocomplete
 esbenp.prettier-vscode
 fknop.vscode-npm
 flobilosaurus.vscode-asciidoc-slides
@@ -65,9 +72,11 @@ formulahendry.code-runner
 formulahendry.github-actions
 formulahendry.terminal
 foxundermoon.shell-format
+fredwangwang.vscode-hcl-format
 gamunu.vscode-yarn
 ghmcadams.lintlens
 groksrc.ruby
+hashicorp.terraform
 hbenl.vscode-test-explorer
 hdevalke.rust-test-lens
 hoovercj.ruby-linter
@@ -101,6 +110,7 @@ luggage66.AWK
 lukaserat.npm-scripts
 madmous.makefile-command-runner
 mads-hartmann.bash-ide-vscode
+mark-tucker.aws-cli-configure
 matklad.rust-analyzer
 matt-rudge.auto-open-preview-panel
 mbessey.vscode-rufo
@@ -108,10 +118,12 @@ mechatroner.rainbow-csv
 metaseed.MetaJump
 metaseed.MetaWord
 metaseed.metago
+mgtrrz.terraform-completer
 mhutchie.git-graph
 micnil.vscode-checkpoints
 miguel-savignano.ruby-symbols
 mikestead.dotenv
+mindaro-dev.file-downloader
 miqh.vscode-language-rust
 misogi.ruby-rubocop
 mohsen1.prettify-json
@@ -138,6 +150,7 @@ panicbit.cargo
 phgn.vscode-starlark
 pinage404.bash-extension-pack
 piotrpalarz.vscode-gitignore-generator
+pjmiravalle.terraform-advanced-syntax-highlighting
 pmneo.tsimporter
 pnp.polacode
 pranaygp.vscode-css-peek
@@ -176,6 +189,8 @@ stkb.rewrap
 streetsidesoftware.code-spell-checker
 stringham.move-ts
 svipas.control-snippets
+syler.sass-indented
+tal7aouy.rainbow-bracket
 tamasfe.even-better-toml
 teabyii.ayu
 technosophos.vscode-helm
@@ -188,11 +203,13 @@ usernamehw.errorlens
 vadimcn.vscode-lldb
 vayan.haml
 vortizhe.simple-ruby-erb
+vscode-aws-console.vscode-aws-console
 vscode-icons-team.vscode-icons
 vsls-contrib.gistfs
 walkme.Ruby-extension-pack
 wayou.file-icons-mac
 wayou.vscode-icons-mac
+wholroyd.HCL
 wingrunr21.vscode-ruby
 wmaurer.change-case
 wolfulus.rust-extension-pack

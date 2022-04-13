@@ -28,5 +28,15 @@
     {
         "key": "cmd+enter",
         "command": "vscode-postgres.runQuery"
+    },
+    {
+        "key": "backspace",
+        "command": "-extension.smartBackspace",
+        "when": "config.hungryDelete.enableSmartBackspace && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "backspace",
+        "command": "-metaGo.metaJump.backspace",
+        "when": "editorTextFocus && metaGoJumping"
     }
 ]
